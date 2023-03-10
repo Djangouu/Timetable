@@ -1,0 +1,38 @@
+/*Estilos pra tabela*/
+
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horario{
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+   width: 50%;
+}
+
+/*Estilos para o cabeçalho*/
+.horario th{
+    background-color: #BEF0CB;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*Estilos para as células da tabela*/
+
+.horario td{
+    border: 1px solid #2B3467;
+    padding: 8px;
+    text-align: center;
+}
+
+/*Estilos para a primeira coluna da tabela*/
+
+.horario th:first-child, .horario td:first-child {
+    font-weight: bold;
+    text-align: center;
+}
